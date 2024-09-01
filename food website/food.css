@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 50px;
+    /* border: 2px solid black; */
+
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.mid {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./foo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    width: 500px;
+    height: 410px;
+    border: 5px solid slateblue;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+
+
+
+}
+
+.deli {
+    color: orange;
+}
+
+.conti {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+
+}
+
+.lo {
+    padding: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.explore {
+    border-radius: 20px;
+    padding: 13px;
+    /* display:flex; 
+    justify-content: space-around;
+     align-items: center; */
+    background-color: orange;
+    color: white;
+    border: 2px solid black;
+
+
+
+}
+
+.sub {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(14, 14, 114);
+    color: white;
+    border: none;
+}
+
+.fooditems {
+    /* border: 2px solid black; */
+    padding: 20px;
+
+}
+
+.appe {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+
+.food {
+    gap: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chic {
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #d7d7d7;
+
+}
+
+.chicken {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.secondlast {
+    /* border: 2px solid black; */
+    padding-bottom: 150px;
+}
+
+.recipe {
+    font-size: 25px;
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.last {
+    /* border: 2px solid black; */
+}
+
+.logs {
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.left {
+    padding: 20px;
+    /* border: 2px solid black; */
+    width: 50%;
+
+}
+
+.right {
+    /* border: 2px solid rgb(250, 7, 7); */
+    width: 50%;
+    padding: 20px;
+
+
+}
+
+.Blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rgb(0, 247, 115); */
+
+}
+
+.rightsection {
+    display: flex;
+    /* justify-content: space-; */
+    /* align-items: center; */
+}
+
+.main {
+    padding-left: 20px;
+}
+.our{
+    padding: 20px;
+    font-size: 45px;
+    text-align: center;
+}
+.submain{
+    /* border: 2px solid black; */
+}
+.lore{
+    text-align: center;
+    font-size: 20px;
+}
+.email{
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    background-color: #d7d7d7;
+}
+.sus{
+    border-radius: 30px;
+height: 30px;
+width: 100px;
+background-color: rgb(202, 139, 21);
+border: none;
+color: white;
+}
+.sus:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: black
+}
+.foody{
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: rgb(31, 31, 109);
+    color: white;
+}
